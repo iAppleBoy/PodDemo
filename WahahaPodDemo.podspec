@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/iAppleBoy/PodDemo.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "PodDemo/*.{h,m}"
+  spec.source_files  = "PodDemo","WahahaPodDemo/*.{h,m}"
 
   spec.framework  = "Foundation","UIKit"
 
